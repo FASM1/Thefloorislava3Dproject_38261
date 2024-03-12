@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dea8c485ca434247a3437bd6ca65810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMessage: Seja bem vindo ao Floor is lava!!
 --- !u!4 &279586522
 Transform:
   m_ObjectHideFlags: 0
@@ -1495,6 +1496,7 @@ GameObject:
   - component: {fileID: 1556775363}
   - component: {fileID: 1556775362}
   - component: {fileID: 1556775366}
+  - component: {fileID: 1556775367}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1615,6 +1617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1556775367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556775361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a956e4d366fd464ba5d22e9af5b96be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: {x: 0.0005, y: 0.0005, z: 0.0005}
 --- !u!1 &1671969764
 GameObject:
   m_ObjectHideFlags: 0
